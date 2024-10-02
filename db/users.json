@@ -1,0 +1,38 @@
+[
+  {
+    "fullname": "Arsen Karapetyan",
+    "email": "arsen@gmail.com",
+    "password": "Arsen",
+    "birthDate": "1993-02-15"
+  },
+  {
+    "fullname": "Arman Grigoryan",
+    "email": "arman@gmail.com",
+    "password": "Arman",
+    "birthDate": "1995-07-10"
+  },
+  {
+    "fullname": "Elen Khachaturyan",
+    "email": "elen@gmail.com",
+    "password": "Elen",
+    "birthDate": "1985-09-30"
+  },
+  {
+    "fullname": "Gevorg Melkonyan",
+    "email": "gevorg@gmail.com",
+    "password": "Gevorg",
+    "birthDate": "1997-01-22"
+  },
+  {
+    "fullname": "Mariam Mkrtchyan",
+    "email": "mariam@gmail.com",
+    "password": "Mariam",
+    "birthDate": "2000-11-05"
+  },
+  {
+    "fullname": "Gevorg Sargsyan",
+    "email": "gevsarg@hotmail.com",
+    "password": "Gev1234",
+    "birthDate": "2003-08-18"
+  }
+]

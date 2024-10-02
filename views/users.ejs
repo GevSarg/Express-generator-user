@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel="stylesheet" href="./stylesheets/users.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="title"><h1><%= title %></h1></div>
+      <div class="user-container">
+        <% users.forEach(function(user) { %>
+        <div class="user-card">
+          <div class="user-data">
+            <strong>Full Name:</strong> <span><%= user.fullname %></span>
+          </div>
+          <div class="user-data">
+            <strong>Email:</strong> <span><%= user.email %></span>
+          </div>
+          <div class="user-data">
+            <strong>Birth Date:</strong> <span><%= user.birthDate %></span>
+          </div>
+        </div>
+        <% }); %>
+      </div>
+    </div>
+  </body>
+</html>

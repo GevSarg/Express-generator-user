@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #8e44ad, #3498db);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 28px;
+  overflow: hidden;
+  background-color: #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.form-box {
+  padding: 60px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-box {
+  background: linear-gradient(135deg, #ff9a9e, #fecfef);
+  color: #fff;
+}
+
+.register-box {
+  background: linear-gradient(135deg, #84fab0, #8fd3f4);
+  color: #fff;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="date"] {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  transition: all 0.3s ease;
+}
+
+input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  background-color: #3498db;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+a {
+  color: #fff;
+  text-decoration: none;
+  margin: 20px auto 0;
+  font-size: 18px;
+  transition: 0.15s ease-in-out;
+}
+a:active {
+  color: #fff;
+}
+a:hover {
+  text-decoration: underline;
+  color: #eaeaea;
+  transform: scale(1.02);
+  transform: translateY(-2px);
+  filter: drop-shadow(0 2px 8px 16px rgba(0, 0, 0, 0.2));
+}
